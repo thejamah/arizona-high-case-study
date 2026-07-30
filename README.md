@@ -10,7 +10,7 @@ Built and delivered by [TheJamah](https://thejamah.com).
 
 ## The brief
 
-The school teaches two curricula side by side, the British IGCSE Edexcel programme and the Kenyan national curriculum, and needed a site that presented both as equal paths rather than one as an afterthought. It also needed to run at effectively zero cost, and to be fully owned and operable by the school after handover, without a developer on retainer.
+The school teaches two curricula side by side, the British IGCSE Edexcel programme and the Kenyan national curriculum, and needed a site that presented both as equal paths rather than one as an afterthought. It also needed to be fully owned and operable by the school after handover, without a developer on retainer.
 
 ## What we built
 
@@ -25,10 +25,9 @@ The curriculum section was the core design problem. Two programmes, presented in
 | | |
 |---|---|
 | Build | Hand-coded static HTML and CSS. No framework, no build step |
-| Hosting | Cloudflare Pages, free tier |
-| SSL | Free, automatic, self-renewing |
+| Hosting | Cloudflare Pages, on the school's own account |
+| SSL | Automatic, self-renewing |
 | Domain | `.co.ke`, registered through a KENIC-accredited Kenyan registrar |
-| Ongoing cost | **Zero.** Hosting and SSL are free permanently. Only the domain renews |
 
 Static and framework-free was a deliberate choice, not a shortcut. The site has no dependencies to patch, nothing to rebuild, and nothing that breaks when a package updates two years from now. A school with no technical staff should not inherit a maintenance burden.
 
